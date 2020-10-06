@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    padding: 2rem 5rem;
+    margin: 0%;
+    background-color:#9933ff;
+    border-style: double;
+    border-color: #000066;
+    border-image-slice: fill;
+}
+script {
+    border-style: dashed;
+    border-image: url(border.png) 30 round;
+}
+main{
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+} 
+   
+
+h1{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+input {
+    border: 1px solid #dfe1e5 ;
+    border-radius: 24px ;
+
+    width: 50%;
+    height: 50px;
+
+    padding: 20px;
+    margin-bottom: 42px;
+
+    font-size: 20px;
+}
+
+input:focus{
+    outline: none;
+}
